@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Shahad Alzahrani | Portfolio</title>
+
+  <!-- Connect CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Shahad Alzahrani</h1>
+
+    <p class="tagline">
+      Computer Science Student | Data Analytics & Web Development
+    </p>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p id="greeting"></p>
+    <button id="themeButton" type="button">
+      Dark Mode
+    </button>
+  </header>
+
+
+  <main>
+
+    <!-- About Me -->
+    <section id="about">
+
+      <h2>About Me</h2>
+
+      <p>
+        Hello! I am a Computer Science student interested in data analytics,
+        programming, and web development. I enjoy learning new technologies
+        and building useful applications.
+      </p>
+
+      <p>
+        <strong>Skills:</strong>
+        Python, Java, SQL, HTML, CSS, JavaScript
+      </p>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects">
+
+      <h2>Projects</h2>
+
+      <div class="projects-container">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+
+          <div class="project-preview">
+
+            <h4>Upcoming Events</h4>
+
+            <div class="event-row">
+              <span class="event-date">12</span>
+
+              <div>
+                <strong>Tech Workshop</strong>
+                <p>10:00 AM</p>
+              </div>
+            </div>
+
+            <div class="event-row">
+              <span class="event-date">18</span>
+
+              <div>
+                <strong>Student Meetup</strong>
+                <p>1:00 PM</p>
+              </div>
+            </div>
+
+          </div>
+
+          <h3>Event Management System</h3>
+
+          <p>
+            A system designed to help users organize and manage events
+            using a simple and user-friendly interface.
+          </p>
+
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="project-card">
+
+          <div class="project-preview">
+
+            <h4>Exam Schedule</h4>
+
+            <div class="schedule-row">
+              <span>ICS321</span>
+              <span>10:00 AM</span>
+            </div>
+
+            <div class="schedule-row">
+              <span>SWE363</span>
+              <span>1:00 PM</span>
+            </div>
+
+            <div class="schedule-row">
+              <span>ICS474</span>
+              <span>3:00 PM</span>
+            </div>
+
+          </div>
+
+          <h3>Exam Scheduler Database</h3>
+
+          <p>
+            A database project designed to organize and schedule final
+            exams using structured data and SQL.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Achievements -->
+    <section id="achievements">
+
+      <h2>Achievements</h2>
+
+      <div class="achievements-container">
+
+        <div class="achievement-card">
+          <h3>Saudi Aramco Scholarship</h3>
+
+          <p>
+            Selected for the Saudi Aramco CDPNE scholarship program
+            in the Computer Science track.
+          </p>
+        </div>
+
+
+        <div class="achievement-card">
+          <h3>IELTS Achievement</h3>
+
+          <p>
+            Achieved an overall IELTS score of 7.0.
+          </p>
+        </div>
+
+
+        <div class="achievement-card">
+          <h3>Research Poster</h3>
+
+          <p>
+            Created a research poster about how e-commerce companies
+            prevent fraud and improve online security.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+
+      <h2>Contact Me</h2>
+
+      <form id="contactForm">
+
+        <label for="name">Name</label>
+
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        >
+
+
+        <label for="email">Email</label>
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        >
+
+
+        <label for="message">Message</label>
+
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Enter your message"
+          required
+        ></textarea>
+
+
+        <button type="submit">
+          Send Message
+        </button>
+
+        <p id="formMessage"></p>
+
+      </form>
+
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      &copy; 2026 Shahad Alzahrani. All rights reserved.
+    </p>
+  </footer>
+
+
+  <!-- Connect JavaScript -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -7,7 +7,6 @@
 
   <title>Shahad Alzahrani | Portfolio</title>
 
-  <!-- Connect CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -15,22 +14,29 @@
 
   <!-- Header -->
   <header>
+
     <h1>Shahad Alzahrani</h1>
 
     <p class="tagline">
       Computer Science Student | Data Analytics & Web Development
     </p>
 
+    <!-- Navigation -->
     <nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#achievements">Achievements</a>
       <a href="#contact">Contact</a>
     </nav>
+
+    <!-- Greeting Message -->
     <p id="greeting"></p>
+
+    <!-- Theme Button -->
     <button id="themeButton" type="button">
       Dark Mode
     </button>
+
   </header>
 
 
@@ -65,27 +71,13 @@
         <!-- Project 1 -->
         <div class="project-card">
 
-          <div class="project-preview">
+          <div class="project-image-box">
 
-            <h4>Upcoming Events</h4>
-
-            <div class="event-row">
-              <span class="event-date">12</span>
-
-              <div>
-                <strong>Tech Workshop</strong>
-                <p>10:00 AM</p>
-              </div>
-            </div>
-
-            <div class="event-row">
-              <span class="event-date">18</span>
-
-              <div>
-                <strong>Student Meetup</strong>
-                <p>1:00 PM</p>
-              </div>
-            </div>
+            <img
+              src="assets/images/event-project.png"
+              alt="Event Management System project"
+              class="project-image event-image"
+            >
 
           </div>
 
@@ -102,24 +94,13 @@
         <!-- Project 2 -->
         <div class="project-card">
 
-          <div class="project-preview">
+          <div class="project-image-box">
 
-            <h4>Exam Schedule</h4>
-
-            <div class="schedule-row">
-              <span>ICS321</span>
-              <span>10:00 AM</span>
-            </div>
-
-            <div class="schedule-row">
-              <span>SWE363</span>
-              <span>1:00 PM</span>
-            </div>
-
-            <div class="schedule-row">
-              <span>ICS474</span>
-              <span>3:00 PM</span>
-            </div>
+            <img
+              src="assets/images/exam-project.png"
+              alt="Exam Scheduler Database project"
+              class="project-image"
+            >
 
           </div>
 
@@ -145,31 +126,37 @@
       <div class="achievements-container">
 
         <div class="achievement-card">
+
           <h3>Saudi Aramco Scholarship</h3>
 
           <p>
             Selected for the Saudi Aramco CDPNE scholarship program
             in the Computer Science track.
           </p>
+
         </div>
 
 
         <div class="achievement-card">
+
           <h3>IELTS Achievement</h3>
 
           <p>
             Achieved an overall IELTS score of 7.0.
           </p>
+
         </div>
 
 
         <div class="achievement-card">
+
           <h3>Research Poster</h3>
 
           <p>
             Created a research poster about how e-commerce companies
             prevent fraud and improve online security.
           </p>
+
         </div>
 
       </div>
@@ -231,13 +218,14 @@
 
   <!-- Footer -->
   <footer>
+
     <p>
       &copy; 2026 Shahad Alzahrani. All rights reserved.
     </p>
+
   </footer>
 
 
-  <!-- Connect JavaScript -->
   <script src="js/script.js"></script>
 
 </body>

@@ -11,7 +11,15 @@ The website includes the following sections:
 - Achievements
 - Contact
 
-It also includes responsive design, dark/light mode, smooth scrolling, and a simple contact form interaction.
+The portfolio also includes:
+
+- Responsive design
+- Dark/light mode
+- Greeting message based on the time of day
+- Smooth scrolling
+- Contact form interaction
+- Real project images
+- Burgundy and soft pink color theme
 
 ---
 
@@ -19,6 +27,7 @@ It also includes responsive design, dark/light mode, smooth scrolling, and a sim
 
 The project is organized into separate folders and files to keep the code clean and easy to manage.
 
+```text
 202323210-shahadalzahrani-assignment1/
 │
 ├── index.html

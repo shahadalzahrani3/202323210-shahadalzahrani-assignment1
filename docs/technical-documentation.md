@@ -19,7 +19,6 @@ It also includes responsive design, dark/light mode, smooth scrolling, and a sim
 
 The project is organized into separate folders and files to keep the code clean and easy to manage.
 
-```text
 202323210-shahadalzahrani-assignment1/
 │
 ├── index.html
@@ -34,6 +33,8 @@ The project is organized into separate folders and files to keep the code clean 
 │
 ├── assets/
 │   └── images/
+│       ├── event-project.png
+│       └── exam-project.png
 │
 └── docs/
     ├── ai-usage-report.md
